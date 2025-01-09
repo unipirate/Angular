@@ -1,6 +1,14 @@
 <section class="todoapp">
     <header class="header">
         <h1>todos</h1>
-        <input class="new-todo" placeholder="What needs to be done?" autofocus="">
+        <input class="new-todo" placeholder="{{placeholder}}" autofocus="">
     </header>
 </section>
+
+<table border="1">
+    <tr>
+        <td [attr.colspan] = "2">3 </td>
+    </tr>
+</table>
+
+<button (click)="click()">Click me!</button>

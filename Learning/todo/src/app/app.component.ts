@@ -9,4 +9,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'todo';
+  placeholder = 'What to do next?';
+
+
+  click() {
+    alert('Button clicked');
+  }
+
+
+
 }
